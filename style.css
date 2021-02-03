@@ -31,7 +31,7 @@ body {
   border-radius: 24px;
   background-color: white;
   width: 20rem;
-  height: 23rem;
+  height: 21rem;
   margin-bottom: 10%;
 }
 .card-img {
@@ -84,7 +84,7 @@ body {
 }
 .separator {
 border-top: 1px solid;
-  margin-top: 15%;
+  margin-top: 12%;
   color: gainsboro;
 }
 .top {
