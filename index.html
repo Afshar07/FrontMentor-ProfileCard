@@ -1,36 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+ 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <title>Frontend Mentor | Profile card component</title>
 
-  80K
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main-card">
+        <div class="card-header">
+          <img src="images/image-victor.jpg" class="prof-pic">
+
+      </div>
+        <div class="card-container">
+          <div class="card-details">
+          
+         <p><span class="name"> Victor Crest</span><span class="age">26</span>
+  </p>
+  <span class="city">London</span>
+</div>
+</div>
+<div class="separator">
+
+</div>
+<div class="card-footer">
+<div> <span class="top"> 80K</span>
+  <span class="muted">
   Followers
-
-  803K
+  </span>
+</div>
+<div>
+<span class="top">  803K
+</span>
+<span class="muted">
   Likes
-
-  1.4K
+  </span>
+</div>
+<div>
+<span class="top">  1.4K
+</span>
+<span class="muted">
   Photos
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+</span>
+</div>
+</div>
+        </div>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Amir Afshar</a>.
+        </div>
+    </div>
+
+  </body>
 </html>
