@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap");
-
 html {
   font-family: "Kumbh Sans", sans-serif;
   height: 100%;
@@ -14,7 +13,7 @@ body {
     url(images/bg-pattern-bottom.svg);
   background-position: left top, right bottom;
   background-repeat: no-repeat;
-  background-position: -85% 170%, 190% -60%;
+  background-position: -350px -480px, 650px 300px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,4 +94,21 @@ body {
 .muted {
   font-size: 80%;
   color: gray;
+}
+@media screen and (max-width: 480px){
+  body{
+    margin: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    height: 100%;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg),
+      url(images/bg-pattern-bottom.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-position: 147% 120%, -20% -93%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
